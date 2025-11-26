@@ -21,10 +21,123 @@ const experienceContentPartOne: content[] = [
     body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
     courseLink: "https://www.example.com/course/data-science-machine-learning",
     certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+},
+{
+    id: 3,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 4,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+},
+{
+    id: 5,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 6,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+},
+{
+    id: 7,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 8,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+},
+{
+    id: 9,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 10,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+}
+,
+{
+    id: 11,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 12,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+},
+{
+    id: 13,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 14,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
 }
 ];
 
 const experienceContentPartTow: content[] = [
+{
+    id: 1,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 2,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+},
+{
+    id: 1,
+    title: "Full Stack Web Development",
+    date: "Jan 2022 - Feb 2023",
+    body: "Completed a comprehensive program covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases.",
+    courseLink: "https://www.example.com/course/full-stack-web-development",
+    certificateLink: "https://www.example.com/certificate/full-stack-web-development"
+}  , { id: 2,
+    title: "Data Science and Machine Learning",
+    date: "Mar 2023 - Dec 2023",
+    body: "Gained expertise in data analysis, statistical modeling, and machine learning algorithms using Python, R, and popular libraries such as Pandas, Scikit-learn, and TensorFlow.",
+    courseLink: "https://www.example.com/course/data-science-machine-learning",
+    certificateLink: "https://www.example.com/certificate/data-science-machine-learning"
+},
 {
     id: 1,
     title: "Full Stack Web Development",

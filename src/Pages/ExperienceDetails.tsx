@@ -1,7 +1,7 @@
 import React, { useState, useEffect , useContext} from 'react';
 import ExperienceCard from '../Components/ExperienceCard';
 import { ExperienceContext } from '../Context/Experience';
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 
 const ExperienceDetails = () => {
 
@@ -38,14 +38,14 @@ const ExperienceDetails = () => {
       const { experienceId } = useParams<{ experienceId: string }>();
         const experienceData = useContext(ExperienceContext);
     if (!experienceData) {
-        return <div className="p-10 text-white">No experience data available.</div>;
+        return <Navigate to="/404" replace />;
     }
 
     const entryId = parseInt(experienceId || '0', 10);
     const experienceEntry = experienceData.find(e => e.id === entryId);
 
     if (!experienceEntry) {
-        return <div className="p-10 text-white">Experience not found.</div>;
+        return <Navigate to="/404" replace />;
     }
   return (
     <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
@@ -55,12 +55,12 @@ const ExperienceDetails = () => {
         <header className="py-5">
           <a
             className="inline-flex items-center gap-2 rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-200 dark:bg-[#282e39] dark:text-gray-300 dark:hover:bg-[#343a46]"
-            href="#"
+            href="/#experience"
           >
             <span className="material-symbols-outlined text-base">
               arrow_back
             </span>
-            <span>Back to Learning Journey</span>
+            <span>Go Back</span>
           </a>
         </header>
         <main className="flex-grow pt-10 pb-20">
@@ -73,7 +73,7 @@ const ExperienceDetails = () => {
           </div>
           <div className="px-4 pt-12">
             <div className="relative">
-              <div className="absolute left-4 top-2 h-[calc(100%-20px)] md:h-full w-0.5 bg-gray-700 md:left-1/2 md:-translate-x-1/2" />
+              <div className="absolute left-4 top-12 h-[calc(100%-140px)] md:h-[calc(100%-135px)] w-0.5 bg-gray-700 md:left-1/2 md:-translate-x-1/2" />
 
 
             <ExperienceCard />
@@ -85,13 +85,15 @@ const ExperienceDetails = () => {
         <footer className="border-t border-gray-200 dark:border-[#282e39] mt-auto px-4 md:px-10 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              © 2024 Developer Portfolio. All rights reserved.
+              © 2025 Hasan Raisan. All rights reserved.
             </p>
             <div className="flex items-center gap-4 text-gray-500 dark:text-gray-400">
               <a
                 className="hover:text-primary transition-colors"
                 data-alt="GitHub Profile"
-                href="#"
+                  href="https://github.com/HasanRaisan"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
                 <svg
                   fill="none"
@@ -111,7 +113,9 @@ const ExperienceDetails = () => {
               <a
                 className="hover:text-primary transition-colors"
                 data-alt="LinkedIn Profile"
-                href="#"
+                href="https://www.linkedin.com/in/hasan-raisan-949b84241/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg
                   fill="none"

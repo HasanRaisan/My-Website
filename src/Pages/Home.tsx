@@ -326,7 +326,9 @@ const Home = () => {
                 </div>
                 <a
                   className="mt-4 flex items-center gap-2 text-primary hover:underline font-mono text-sm"
-                  href="#"
+                  href="https://github.com/HasanRaisan/CleanArchitecture_TeacherStudentAPI"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="h-5 w-5"
@@ -371,7 +373,9 @@ const Home = () => {
                 </div>
                 <a
                   className="mt-4 flex items-center gap-2 text-primary hover:underline font-mono text-sm"
-                  href="#"
+                  href="https://github.com/HasanRaisan/Driving-Vehicle-License-Department-DVLD-"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="h-5 w-5"
@@ -415,7 +419,9 @@ const Home = () => {
                 </div>
                 <a
                   className="mt-4 flex items-center gap-2 text-primary hover:underline font-mono text-sm"
-                  href="#"
+                  href="https://github.com/HasanRaisan/Bank-System"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="h-5 w-5"
@@ -457,7 +463,9 @@ const Home = () => {
                 </div>
                 <a
                   className="mt-4 flex items-center gap-2 text-primary hover:underline font-mono text-sm"
-                  href="#"
+                  href="https://github.com/HasanRaisan/Student-API"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="h-5 w-5"
@@ -499,7 +507,9 @@ const Home = () => {
                 </div>
                 <a
                   className="mt-4 flex items-center gap-2 text-primary hover:underline font-mono text-sm"
-                  href="#"
+                  href="https://github.com/HasanRaisan/Windows-Services"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="h-5 w-5"
@@ -523,7 +533,7 @@ const Home = () => {
                 }}
               />
               <div className="p-6 flex flex-col gap-3">
-                <h3 className="text-white text-xl font-bold">ATM Project</h3>
+                <h3 className="text-white text-xl font-bold">ATM</h3>
                 <p className="text-text-light text-sm">
                   This project is a simple command-line program that simulates
                   the functions of an Automated Teller Machine (ATM), using
@@ -542,7 +552,9 @@ const Home = () => {
                 </div>
                 <a
                   className="mt-4 flex items-center gap-2 text-primary hover:underline font-mono text-sm"
-                  href="#"
+                  href="https://github.com/HasanRaisan/ATM"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="h-5 w-5"
