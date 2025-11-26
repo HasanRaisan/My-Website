@@ -2,14 +2,20 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './index.css';
 import Home from './Pages/Home';
-import Experience from './Pages/Experience';
+import ExperienceDetails from './Pages/ExperienceDetails';
+import { ExperienceContext } from './Context/Experience';
+import { experienceData } from './Data/Experience';
+
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' element={<Experience />} />
-        <Route path='/home' element={<Home />} />
-      </Routes>
+      <ExperienceContext.Provider value={experienceData}>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/experience/:experienceId' element={<ExperienceDetails />} />
+        </Routes>
+      </ExperienceContext.Provider>
     </>
   );
 }

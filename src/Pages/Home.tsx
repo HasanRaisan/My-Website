@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import ExperienceList from '../Components/ExperienceList';
 const Home = () => {
+
+
   const [showScrollBtn, setShowScrollBtn] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -560,79 +563,9 @@ const Home = () => {
             / experience
           </h2>
           <div className="p-4 flex flex-col gap-12">
-            <div className="relative pl-8 border-l border-white/30">
-              <div className="absolute -left-2 top-1 h-4 w-4 rounded-full bg-primary" />
-              <p className="text-primary text-sm font-mono mb-1">
-                Jan 2022 - Feb 2023
-              </p>
-              <h3 className="text-white font-bold text-lg">
-                Foundational Mastery in Programming
-              </h3>
-              <p className="text-text-light mt-2">
-                This phase builds a solid programming core, starting with Basic
-                Fundamentals and progressing through an intensive, multi-level
-                study of Algorithms and Problem Solving. It provides practical
-                instruction in C++ (Levels I &amp; II), followed by mastery of
-                Object-Oriented Programming (OOP), its applications, and
-                essential Data Structures (Level I). This segment establishes
-                the critical logical and computational skills needed for
-                advanced development.
-              </p>
-            </div>
-            <div className="relative pl-8 border-l border-white/30">
-              <div className="absolute -left-2 top-1 h-4 w-4 rounded-full bg-primary" />
-              <p className="text-primary text-sm font-mono mb-1">
-                Feb 2023 - Aug 2024
-              </p>
-              <h3 className="text-white font-bold text-lg">
-                The C# &amp; Database Deep Dive
-              </h3>
-              <p className="text-text-light mt-2">
-                This segment focuses on applied, in-demand skills using the C#
-                language and Database Management. It covers C# fundamentals,
-                desktop development (Windows Forms), and deep dives into SQL
-                Server (Levels 1 &amp; 2 - T-SQL). Key concepts include advanced
-                OOP in C#, connecting applications to databases (ADO.NET), and
-                executing a comprehensive real-world project. The section
-                concludes with advanced C# topics, Data Structures Level 2,
-                high-level Algorithms Level 6, and Windows Services.
-              </p>
-            </div>
-            <div className="relative pl-8 border-l border-white/30">
-              <div className="absolute -left-2 top-1 h-4 w-4 rounded-full bg-primary" />
-              <p className="text-primary text-sm font-mono mb-1">
-                Aug 2024 - Current
-              </p>
-              <h3 className="text-white font-bold text-lg">
-                Back-End Development with .NET Core (API Focus)
-              </h3>
-              <p className="text-text-light mt-2">
-                This part focuses on professional Back-End Development using the
-                modern .NET Core framework. It emphasizes building robust
-                services through mastery of RESTful APIs, efficient data
-                management using Entity Framework Core, and implementation of
-                professional standards like Clean Architecture. Crucial security
-                elements, including Authorization and Authentication, are also
-                covered.
-              </p>
-            </div>
-            <div className="relative pl-8 border-l border-white/30">
-              <div className="absolute -left-2 top-1 h-4 w-4 rounded-full bg-primary" />
-              <p className="text-primary text-sm font-mono mb-1">
-                Aug 2025 - Current
-              </p>
-              <h3 className="text-white font-bold text-lg">
-                Front-End Web Development &amp; React
-              </h3>
-              <p className="text-text-light mt-2">
-                This segment covers the essential skills for building engaging
-                user interfaces. It grounds the learning in the core web
-                technologies: HTML, CSS, and JavaScript, enhanced by Bootstrap.
-                The progression includes using TypeScript for scalable code and
-                mastering the React JS framework to create modern, interactive,
-                and high-performance Front-End web applications.
-              </p>
-            </div>
+
+            <ExperienceList  />
+            
           </div>
         </section>
         <section className="py-16 sm:py-20" id="blog">
