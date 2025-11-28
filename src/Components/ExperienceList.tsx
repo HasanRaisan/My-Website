@@ -17,7 +17,9 @@ const ExperienceList = () => {
                 <div className="absolute -left-2 top-1 h-4 w-4 rounded-full bg-primary" />
                 <p className="text-primary text-sm font-mono mb-1">{experience.dateRange}</p>
                 <h3 className="text-white font-bold text-lg">{experience.title}</h3>
-                <p className="text-text-light mt-2">{experience.body}</p>
+                <p
+                className="text-text-light mt-2" dangerouslySetInnerHTML={{ __html: experience.body}}
+                />
                 <Link to={`/experience/${experience.id}`} 
                     className='inline-flex items-center gap-2 text-accent-purple text-sm font-medium mt-4 hover:text-primary transition-colors'>
                     <span className="material-symbols-outlined text-base"> link </span>

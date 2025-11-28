@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ExperienceList from '../Components/ExperienceList';
+import SendEamil from '../Components/SendEmail'
+import { Link } from 'react-router-dom';
+
 const Home = () => {
 
 
@@ -186,20 +189,15 @@ const Home = () => {
               data-alt="Professional headshot of the developer"
               style={{
                 backgroundImage:
-                  'url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVQgjxubM3qN3zePtEJwRphQnffc7bgQWfZDIbvOf9beQC6ZNqSOGHlV55J1Jfhu2QiM2DUGFGMa0rJ3OGHU1lkFy7VQMh1Z5jsC2oD-Zgbl8AzB3-Q3N3p2TzN-kJsJZZDvDqnGW50dFSBaTvdiW_Br2M2bBtgFBO0QuEVRdSPTj7kiaY9lUIq3-ngmZUvctlqXzCINpK1XCTyhn7g3iawoJvhj-gKn1JP4mZSygtutpSkCcWyneSVPWrAWpaRFq0erVP808iQ40")'
+                  'url("/img/my-picture.png")'
               }}
             />
             <div className="md:col-span-2">
               <p className="text-text-light text-base font-normal leading-relaxed pb-4">
-                I love designing the logic that makes applications run. Whether
-                it is implementing Clean Architecture in .NET 9, optimizing
-                complex SQL queries, or securing APIs, I thrive on the technical
-                challenges that happen behind the scenes.
+                I enjoy building the logic that powers applications. Whether I’m applying Clean Architecture in .NET 9, optimizing advanced SQL queries, or securing APIs, I thrive on the technical challenges happening behind the scenes.
               </p>
               <p className="text-text-light text-base font-normal leading-relaxed">
-                My goal is to leverage my expertise to build meaningful products
-                that solve real-world problems and provide exceptional user
-                experiences.
+                My goal is to use my skills to create meaningful products that solve real-world problems and deliver great user experiences.
               </p>
             </div>
           </div>
@@ -586,23 +584,24 @@ const Home = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-4">
             <div className="flex flex-col gap-3">
+              <Link to = {`/blog`} >
               <h3 className="text-white text-lg font-bold hover:text-primary cursor-pointer transition-colors">
-                Mastering State Management in React with Zustand
+                Advanced Database Concepts for Developers
               </h3>
-              <p className="text-text-light text-sm">
-                A deep dive into why Zustand is becoming a go-to choice for
-                simple, powerful state management in modern React applications.
+              </Link>
+              
+              <p className="text-text-light text-sm">Advanced database needs: Covering Indexes and Partitioning for speed. Use Schema Migration (Flyway) for controlled structure, Temporal Tables for history, and Materialized Views to accelerate reports. Secure passwords with Hash + Salt.
               </p>
               <div className="flex flex-wrap gap-2 pt-1">
                 <span className="text-accent-purple text-xs font-semibold bg-accent-purple/10 px-2.5 py-1 rounded-full">
-                  React
+                  Database
                 </span>
                 <span className="text-accent-purple text-xs font-semibold bg-accent-purple/10 px-2.5 py-1 rounded-full">
-                  State Management
+                  Security
                 </span>
               </div>
             </div>
-            <div className="flex flex-col gap-3">
+            {/* <div className="flex flex-col gap-3">
               <h3 className="text-white text-lg font-bold hover:text-primary cursor-pointer transition-colors">
                 Building a REST API with Node.js and Express
               </h3>
@@ -622,7 +621,7 @@ const Home = () => {
                   Backend
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="py-16 sm:py-20" id="contact">
@@ -644,7 +643,7 @@ const Home = () => {
                   mail
                 </span>
                 <span className="text-white font-mono">
-                  hasan.raisann@email.com
+                  hasan.raisann@gmail.com
                 </span>
                 <button className="opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-2 text-xs bg-white/10 px-2 py-1 rounded-md">
                   <span className="material-symbols-outlined text-sm">
@@ -694,30 +693,9 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <form className="flex flex-col gap-4">
-              <input
-                className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white placeholder-text-light focus:ring-primary focus:border-primary"
-                placeholder="Name"
-                type="text"
-              />
-              <input
-                className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white placeholder-text-light focus:ring-primary focus:border-primary"
-                placeholder="Email"
-                type="email"
-              />
-              <textarea
-                className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white placeholder-text-light focus:ring-primary focus:border-primary"
-                placeholder="Message"
-                rows={4}
-                defaultValue={""}
-              />
-              <button
-                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors"
-                type="submit"
-              >
-                <span className="truncate">Send Message</span>
-              </button>
-            </form>
+
+              <SendEamil/>
+
           </div>
         </section>
       </div>
@@ -732,6 +710,9 @@ const Home = () => {
   </div> 
 </div>
   )
+  
 }
 
 export default Home
+
+

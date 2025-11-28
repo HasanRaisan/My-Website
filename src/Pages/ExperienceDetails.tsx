@@ -2,6 +2,7 @@ import React, { useState, useEffect , useContext} from 'react';
 import ExperienceCard from '../Components/ExperienceCard';
 import { ExperienceContext } from '../Context/Experience';
 import { useParams, Navigate } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 const ExperienceDetails = () => {
 
@@ -53,7 +54,7 @@ const ExperienceDetails = () => {
     <div className="px-4 sm:px-8 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
       <div className="flex flex-col w-full max-w-[960px] flex-1">
         <header className="py-5">
-          <a
+          {/* <a
             className="inline-flex items-center gap-2 rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-200 dark:bg-[#282e39] dark:text-gray-300 dark:hover:bg-[#343a46]"
             href="/#experience"
           >
@@ -61,12 +62,32 @@ const ExperienceDetails = () => {
               arrow_back
             </span>
             <span>Go Back</span>
-          </a>
+          </a> */}
+
+            <Link to ={`/home`}>
+            <div className="flex items-center gap-3">
+              <div
+                className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                data-alt="Abstract gradient placeholder"
+                style={{
+                  backgroundImage: 'url("/img/my-picture.png")'
+                  }}
+              />
+              <div className="flex flex-col">
+                <h1 className="text-text-light text-base font-medium leading-normal">
+                  Hasan Raisan
+                </h1>
+                <p className="text-text-light/70 text-sm font-normal leading-normal">
+                  Full-Stack Web Developer
+                </p>
+              </div>
+            </div>
+            </Link>
         </header>
         <main className="flex-grow pt-10 pb-20">
           <div className="flex flex-wrap justify-between gap-3 p-4">
             <div className="flex w-full flex-col gap-3">
-              <p className="text-4xl font-black leading-tight tracking-[-0.033em] text-gray-900 dark:text-white">
+              <p className="text-primary text-3xl font-black leading-tight tracking-[-0.033em]">
                 {experienceEntry.title}
               </p>
             </div>

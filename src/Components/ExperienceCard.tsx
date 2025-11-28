@@ -52,7 +52,6 @@ const ExperienceDetails = () => {
                                 </p>
                             </div>
                         </div>
-
                         <div className={`mt-4 flex-1 md:mt-0 ${cardMarginClass}`}>
                             <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-[#1A1D23]">
                                 <h3 className="text-lg font-bold text-gray-900 dark:text-white">
@@ -63,12 +62,12 @@ const ExperienceDetails = () => {
                                 </p>
                                 <div className="mt-4 flex flex-wrap gap-4">
                                     {item.courseLink && (
-                                        <a className="flex items-center gap-1.5 text-sm font-medium text-primary hover:underline" href={item.courseLink}>
+                                        <a className="flex items-center gap-1.5 text-sm font-medium text-primary hover:underline" target="_blank" rel="noopener noreferrer" href={item.courseLink}>
                                             <span className="material-symbols-outlined text-base">link</span> Course
                                         </a>
                                     )}
                                     {item.certificateLink && (
-                                        <a className="flex items-center gap-1.5 text-sm font-medium text-primary hover:underline" href={item.certificateLink}>
+                                        <a className="flex items-center gap-1.5 text-sm font-medium text-primary hover:underline" target="_blank" rel="noopener noreferrer" href={item.certificateLink}>
                                             <span className="material-symbols-outlined text-base">workspace_premium</span> Certificate
                                         </a>
                                     )}

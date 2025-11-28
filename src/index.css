@@ -22,3 +22,7 @@ code {
             'GRAD' 0,
             'opsz' 24
         }
+
+  details summary::-webkit-details-marker {
+      display: none;
+    }
