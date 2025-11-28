@@ -590,7 +590,7 @@ const Home = () => {
               </h3>
               </Link>
               
-              <p className="text-text-light text-sm">Advanced database needs: Covering Indexes and Partitioning for speed. Use Schema Migration (Flyway) for controlled structure, Temporal Tables for history, and Materialized Views to accelerate reports. Secure passwords with Hash + Salt.
+              <p className="text-text-light text-sm">Advanced database needs: Covering Indexes and Partitioning for speed. Use Schema Migration (Flyway) for controlled structure, Temporal Tables for history, and Materialized Views to accelerate reports. Secure passwords with Hash & Salt.
               </p>
               <div className="flex flex-wrap gap-2 pt-1">
                 <span className="text-accent-purple text-xs font-semibold bg-accent-purple/10 px-2.5 py-1 rounded-full">
