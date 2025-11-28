@@ -31,8 +31,18 @@
             theme: {
                 extend: {
                     colors: {
-                        "primary": "#00A8CC",
-                        "background-light": "#f6f6f8",
+                        // "primary": "#00A8CC",
+                        // "background-light": "#f6f6f8",
+                        // "background-dark": "#1E1E1E",
+                        // "text-light": "#D4D4D4",
+                        // "accent-orange": "#CE9178",
+                        // "accent-purple": "#C586C0",
+
+                    primary: "#00A8CC",
+                        /* Light Mode */
+                        "background-light": "#f2f3f5",   
+                        "text-dark": "#1a1a1a",        
+                        /* Dark Mode */
                         "background-dark": "#1E1E1E",
                         "text-light": "#D4D4D4",
                         "accent-orange": "#CE9178",
@@ -55,7 +65,9 @@
 
   </head>
 
-  <body>
+
+    <body class="bg-background-light text-text-dark dark:bg-background-dark dark:text-text-light">
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
