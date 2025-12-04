@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 const ExperienceDetails = () => {
 
     const { experienceId } = useParams<{ experienceId: string }>();
-        const experienceData = useContext(ExperienceContext);
+    const experienceData = useContext(ExperienceContext);
     if (!experienceData) {
         return <div className="p-10 text-white">No experience data available.</div>;
     }

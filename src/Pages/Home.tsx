@@ -197,7 +197,7 @@ const Home = () => {
             />
             <div className="md:col-span-2">
               <p className="text-text-light text-base font-normal leading-relaxed pb-4">
-                I enjoy building the logic that powers applications. Whether I’m applying Clean Architecture in .NET 9, optimizing advanced SQL queries, or securing APIs, I thrive on the technical challenges happening behind the scenes.
+                I enjoy building the logic that powers applications. Whether I’m applying Clean Architecture in .NET, optimizing advanced SQL queries, or securing APIs, I thrive on the technical challenges happening behind the scenes.
               </p>
               <p className="text-text-light text-base font-normal leading-relaxed">
                 My goal is to use my skills to create meaningful products that solve real-world problems and deliver great user experiences.
@@ -291,15 +291,16 @@ const Home = () => {
         <section className="py-16 sm:py-20" id="portfolio">
           <h2 className="text-white text-2xl md:text-3xl font-bold leading-tight tracking-[-0.015em] px-4 pb-6 font-mono">
             / portfolio
-          </h2>
+          </h2> 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+
+
             <div className="bg-white/5 rounded-lg overflow-hidden group">
               <div
                 className="w-full bg-center bg-no-repeat aspect-video bg-cover"
                 data-alt="Screenshot of a modern e-commerce dashboard"
                 style={{
-                  backgroundImage:
-                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDZtX_JkoS_K1WBFmzXCDEy_uqFmoZ7OxemxpolxzgopNRKTE4UKRo1vKtBYiGOLfYseXUBlNCbf4dgEuJB9RwCtB2YX9wT0LSNUtqN1ua1mttTWVefW3ShJ7_yorlIy_lKE7ctCXUPqv9PmKHOPgzTPZtRi8nNAWnU2prBCSqyQMdvmz4SKb4XIrMluybmFpF7p900yjdeUkKc-mboMvF4YMJ6gei8tyRM8RUB7VwAzY8FG1Z2AAhdyDImP7eXyrkpZS_Y7YpaUqo")'
+                  backgroundImage:'url("/img/teacher-student-api.jpg")'
                 }}
               />
               <div className="p-6 flex flex-col gap-3">
@@ -309,7 +310,7 @@ const Home = () => {
                 <p className="text-text-light text-sm">
                   A scalable and maintainable Web API designed using Clean
                   Architecture principles, ensuring clear separation of
-                  responsibilities across all layers.
+                  responsibilities across all layers.          
                 </p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   <span className="text-accent-orange text-xs font-semibold bg-accent-orange/10 px-2.5 py-1 rounded-full">
@@ -343,19 +344,24 @@ const Home = () => {
                 </a>
               </div>
             </div>
+
+
+
+
+
             <div className="bg-white/5 rounded-lg overflow-hidden group">
               <div
                 className="w-full bg-center bg-no-repeat aspect-video bg-cover"
                 data-alt="Screenshot of a project management application"
                 style={{
-                  backgroundImage:
-                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDsjy2LN4yJF7xCiA0o4F-tyHpkLsiEMZ_b3W4tHsGekjShJdNam04JgyRVvVh1Pib-fpaBK_V6K_5ZvHo53-YM-C5DNAcT53FWfoPKH8XAMMRvIxgjOtsG2ouohQi6IJKWtuEFmvGf3KWuj-slXYumLsCtE0hep2vPQluU-zNwkqpHtEKdqq3h1n_P1WcLzwZcmSKVsYwAI3vLWhEQl5RSh4b7A6UAmvYMs74dS9C68H7HRNxq1z-lBJGDBaDVDOZ2W3JEt1TmWK8")'
+                  backgroundImage: 'url("/img/driving-vehicle-license.png")'
                 }}
               />
               <div className="p-6 flex flex-col gap-3">
                 <h3 className="text-white text-xl font-bold">
                   Driving Vehicle License Department (DVLD)
                 </h3>
+                
                 <p className="text-text-light text-sm">
                   A desktop system designed for the issuance and renewal of
                   various types of driver's licenses, within an environment that
@@ -390,13 +396,16 @@ const Home = () => {
                 </a>
               </div>
             </div>
+
+
+
+
             <div className="bg-white/5 rounded-lg overflow-hidden group">
               <div
                 className="w-full bg-center bg-no-repeat aspect-video bg-cover"
                 data-alt="Screenshot of a social media platform"
                 style={{
-                  backgroundImage:
-                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDZtX_JkoS_K1WBFmzXCDEy_uqFmoZ7OxemxpolxzgopNRKTE4UKRo1vKtBYiGOLfYseXUBlNCbf4dgEuJB9RwCtB2YX9wT0LSNUtqN1ua1mttTWVefW3ShJ7_yorlIy_lKE7ctCXUPqv9PmKHOPgzTPZtRi8nNAWnU2prBCSqyQMdvmz4SKb4XIrMluybmFpF7p900yjdeUkKc-mboMvF4YMJ6gei8tyRM8RUB7VwAzY8FG1Z2AAhdyDImP7eXyrkpZS_Y7YpaUqo")'
+                  backgroundImage:  'url("/img/bank.png")'
                 }}
               />
               <div className="p-6 flex flex-col gap-3">
@@ -436,13 +445,23 @@ const Home = () => {
                 </a>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
             <div className="bg-white/5 rounded-lg overflow-hidden group">
               <div
                 className="w-full bg-center bg-no-repeat aspect-video bg-cover"
                 data-alt="Screenshot of a blog website"
                 style={{
-                  backgroundImage:
-                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDsjy2LN4yJF7xCiA0o4F-tyHpkLsiEMZ_b3W4tHsGekjShJdNam04JgyRVvVh1Pib-fpaBK_V6K_5ZvHo53-YM-C5DNAcT53FWfoPKH8XAMMRvIxgjOtsG2ouohQi6IJKWtuEFmvGf3KWuj-slXYumLsCtE0hep2vPQluU-zNwkqpHtEKdqq3h1n_P1WcLzwZcmSKVsYwAI3vLWhEQl5RSh4b7A6UAmvYMs74dS9C68H7HRNxq1z-lBJGDBaDVDOZ2W3JEt1TmWK8")'
+                  backgroundImage: 'url("/img/student-api.png")'
                 }}
               />
               <div className="p-6 flex flex-col gap-3">
@@ -480,6 +499,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
+            
             <div className="bg-white/5 rounded-lg overflow-hidden group">
               <div
                 className="w-full bg-center bg-no-repeat aspect-video bg-cover"
@@ -529,8 +549,7 @@ const Home = () => {
                 className="w-full bg-center bg-no-repeat aspect-video bg-cover"
                 data-alt="Screenshot of a URL shortener service"
                 style={{
-                  backgroundImage:
-                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDsjy2LN4yJF7xCiA0o4F-tyHpkLsiEMZ_b3W4tHsGekjShJdNam04JgyRVvVh1Pib-fpaBK_V6K_5ZvHo53-YM-C5DNAcT53FWfoPKH8XAMMRvIxgjOtsG2ouohQi6IJKWtuEFmvGf3KWuj-slXYumLsCtE0hep2vPQluU-zNwkqpHtEKdqq3h1n_P1WcLzwZcmSKVsYwAI3vLWhEQl5RSh4b7A6UAmvYMs74dS9C68H7HRNxq1z-lBJGDBaDVDOZ2W3JEt1TmWK8")'
+                  backgroundImage:  'url("/img/atm.png")'
                 }}
               />
               <div className="p-6 flex flex-col gap-3">
