@@ -168,7 +168,7 @@ const Home = () => {
                 Full-Stack Web Developer
               </h2>
               <p className="text-accent-purple max-w-2xl mx-auto text-base sm:text-lg">
-                I build elegant, efficient, and scalable software solutions from
+                I build maintainable, efficient, and scalable software solutions from
                 concept to deployment.
               </p>
             </div>
@@ -506,7 +506,7 @@ const Home = () => {
                 data-alt="Screenshot of a weather application"
                 style={{
                   backgroundImage:
-                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDZtX_JkoS_K1WBFmzXCDEy_uqFmoZ7OxemxpolxzgopNRKTE4UKRo1vKtBYiGOLfYseXUBlNCbf4dgEuJB9RwCtB2YX9wT0LSNUtqN1ua1mttTWVefW3ShJ7_yorlIy_lKE7ctCXUPqv9PmKHOPgzTPZtRi8nNAWnU2prBCSqyQMdvmz4SKb4XIrMluybmFpF7p900yjdeUkKc-mboMvF4YMJ6gei8tyRM8RUB7VwAzY8FG1Z2AAhdyDImP7eXyrkpZS_Y7YpaUqo")'
+                    'url("/img/windows-services.png")'
                 }}
               />
               <div className="p-6 flex flex-col gap-3">
