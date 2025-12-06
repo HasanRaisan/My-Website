@@ -413,9 +413,7 @@ const Home = () => {
                   Bank Management System (BMS)
                 </h3>
                 <p className="text-text-light text-sm">
-                  An advanced command-line system that simulates banking
-                  operations using C++ with local data storage in files.
-                </p>
+                C++ command-line bank system. Manages users (permissions), customers (CRUD), transfers, deposits, currency rates, and logs data.                </p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   <span className="text-accent-orange text-xs font-semibold bg-accent-orange/10 px-2.5 py-1 rounded-full">
                     C++
@@ -425,6 +423,9 @@ const Home = () => {
                   </span>
                   <span className="text-accent-orange text-xs font-semibold bg-accent-orange/10 px-2.5 py-1 rounded-full">
                     File Handling (I/O)
+                  </span>
+                  <span className="text-accent-orange text-xs font-semibold bg-accent-orange/10 px-2.5 py-1 rounded-full">
+                    Command Line
                   </span>
                 </div>
                 <a
@@ -467,8 +468,7 @@ const Home = () => {
               <div className="p-6 flex flex-col gap-3">
                 <h3 className="text-white text-xl font-bold">Student API</h3>
                 <p className="text-text-light text-sm">
-                  This project is a simple Web API for managing student data,
-                  developed using ASP.NET Core and SQL Server.
+                  Web API utilizing a three-tier architecture for robust student data management. Implemented with ASP.NET Core and SQL Server.
                 </p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   <span className="text-accent-orange text-xs font-semibold bg-accent-orange/10 px-2.5 py-1 rounded-full">
@@ -555,9 +555,9 @@ const Home = () => {
               <div className="p-6 flex flex-col gap-3">
                 <h3 className="text-white text-xl font-bold">ATM</h3>
                 <p className="text-text-light text-sm">
-                  This project is a simple command-line program that simulates
+                  A command-line program that simulates
                   the functions of an Automated Teller Machine (ATM), using
-                  storing customer data in a plain text file..
+                  storing customer data in a plain text file.
                 </p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   <span className="text-accent-orange text-xs font-semibold bg-accent-orange/10 px-2.5 py-1 rounded-full">
